@@ -1,0 +1,28 @@
+body{
+    background-color: lightskyblue;
+}
+#container{
+    width: 600px;
+    border: none;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+}
+div{
+    border: 1px dotted #222;
+    padding: 20px;
+    margin: 30px;
+}
+#box1{
+    background-color: lightgray;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#box2{
+    background-color: lightcoral;
+}
+#box3{
+    background-color: greenyellow;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

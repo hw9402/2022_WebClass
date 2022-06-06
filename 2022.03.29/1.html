@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div>
+      <h1>form 기본 태그 과제</h1>
+      <fieldset>
+        <legend>드롭다운 목록: select</legend>
+        <label>
+					<select>
+						<option value="apple">사과</option>
+						<option value="mandarin" selected>귤</option>
+						<option value="strawberry">딸기</option>
+						<option value="peach">복숭아</option>
+					</select>
+				</label>
+      </fieldset>
+      <br><br><br><br>
+      <fieldset>
+        <legend>선택: 라디오 타입</legend>
+        <input type="radio" id="man" name="gender">
+        <label for="man">남자</label>
+        <input type="radio" id="woman" name="gender" checked>
+        <label for="woman">여자</label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>선택: 체크 박스타입</legend>
+        <input type="checkbox" id="cucumber" value="1">
+        <label for="cucumber">오이</label>
+        <input type="checkbox" id="carrot" value="2">
+        <label for="carrot">당근</label>
+        <input type="checkbox" id="cabbage" value="3" checked>
+        <label for="cabbage">배추</label>
+        <input type="checkbox" id="pumpkin" value="4">
+        <label for="pumpkin">호박</label>
+      </fieldset>
+    </div>
+  </body>
+</html>

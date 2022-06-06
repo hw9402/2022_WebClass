@@ -1,0 +1,11 @@
+h1 {
+    color:#ffffff;
+    background-color: #0404aa;
+    display:inline-block;
+}
+span {
+    color:red;
+}
+.accent {
+    font:bold
+}

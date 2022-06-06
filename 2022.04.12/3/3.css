@@ -1,0 +1,32 @@
+#container{
+    width: 650px;
+    margin: 0 auto;
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+}
+h2{
+    color: red;
+    font-size: 1.5em;
+    margin: 20 auto;
+}
+p{
+    font-size: 1.2em;
+    line-height: 2em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.accent{
+    color: blue;
+}
+.smalltext{
+    font-size: 0.7em;
+}
+#check{
+    width: 640px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
